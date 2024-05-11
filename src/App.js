@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import Footer from './components/footer';
 import './index.css';
 import Home from './pages/Home';
 import SplashScreen from './pages/spalshScreen';

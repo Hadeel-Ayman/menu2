@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import React, { useContext } from "react";
 import "./style.css";
 import { StoreContext } from "../../context/StoreContext";
@@ -38,17 +39,3 @@ const FoodList = ({ category }) => {
 };
 
 export default FoodList;
-
-{
-  /* {food_list && (
-  <FoodItem
-    meals={food_list.filter((meal) => meal.category === category)}
-    key={index}
-    id={meal._id}
-    name={meal.name}
-    description={meal.description}
-    price={meal.price}
-    image={meal.image}
-  />
-)} */
-}
