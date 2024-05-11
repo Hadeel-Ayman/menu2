@@ -34,14 +34,15 @@ h3 {
     gap: 30px;
     text-align: center;
     margin: 20px 0px;
-    overflow-x: scroll;
 }
 
 @media (max-width: 550px) {
     .menu_list {
         justify-content: space-between;
+        overflow-x: scroll;
     }
 }
+
 
 .menu_list::-webkit-scrollbar {
     display: none;
