@@ -57,15 +57,11 @@ import sandwish30 from '../assets/images/sandwish30.jpg'
 
 export const menu_list = [
     {
-        menu_name: "جميع الاصناف",
-        menu_image: menu_3
-    },
-    {
         menu_name: "تكة حلو",
         menu_image: menu_3
     },
     {
-        menu_name: "قسم السندوتشات",
+        menu_name: "السندوتشات",
         menu_image: menu_4
     },
     {
@@ -73,7 +69,7 @@ export const menu_list = [
         menu_image: menu_6
     },
     {
-        menu_name: "قسم المكرونات",
+        menu_name: "المكرونات",
         menu_image: menu_7
     },
     {
@@ -180,7 +176,7 @@ export const food_list = [
         price: 35,
         price2: '45 جنيه',
         description: "صوص تكساس - خص - خيار مخلل - صوص جبن - استربس",
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -191,7 +187,7 @@ export const food_list = [
         price: 40,
         price2: '50 جنيه',
         description: "صوص تكساس - خص - خيار مخلل - صوص جبن - استربس",
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -202,7 +198,7 @@ export const food_list = [
         price: 35,
         price2: '45 جنيه',
         description: "صوص تكساس - خص - خيار مخلل - صوص جبن - بانيه",
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -213,7 +209,7 @@ export const food_list = [
         price: 30,
         price2: '40 جنيه',
         description: "طحينة - طماطم - خيار مخلل",
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -224,7 +220,7 @@ export const food_list = [
         price: 20,
         price2: '30 جنيه',
         description: "فلفل - طحينة - خيار مخلل",
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -235,7 +231,7 @@ export const food_list = [
         price: 25,
         price2: '30 جنيه',
         description: "فلفل - طحينة - خيار مخلل",
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -246,7 +242,7 @@ export const food_list = [
         price: 35,
         price2: '70 جنيه',
         description: "بصل - فلفل - لحمة مفرومة",
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -257,7 +253,7 @@ export const food_list = [
         price: 45,
         price2: '-',
         description: "جبنة رومي - فلفل - زيتون - بصل - لحمة مفرومة",
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -268,7 +264,7 @@ export const food_list = [
         price: 45,
         price2: '-',
         description: "جبنة رومي - فلفل - زيتون - بصل - لحمة مفرومة",
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -279,7 +275,7 @@ export const food_list = [
         price: 45,
         price2: '-',
         description: "كبدة - فلفل - خضرة",
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -290,7 +286,7 @@ export const food_list = [
         price: 40,
         price2: '-',
         description: "كبدة - فلفل - خضرة - بطاطس",
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -301,7 +297,7 @@ export const food_list = [
         price: 35,
         price2: '45 جنيه',
         description: "كبدة - سجق - كفتة",
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -312,7 +308,7 @@ export const food_list = [
         price: 55,
         price2: '-',
         description: "خص - طماطم - خيار مخلل - صوص تكساس - صوص جبن",
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -323,7 +319,7 @@ export const food_list = [
         price: 45,
         price2: '-',
         description: "برجر - صوص تكساس",
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -334,7 +330,7 @@ export const food_list = [
         price: 90,
         price2: '-',
         description: "2 شريحة برجر - صوص تكساس",
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -345,7 +341,7 @@ export const food_list = [
         price: 60,
         price2: '-',
         description: "برجر - صوص تكساس - بيضة",
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -355,7 +351,7 @@ export const food_list = [
         image: sandwish17,
         price: 30,
         price2: '40 جنيه',
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -366,7 +362,7 @@ export const food_list = [
         price: 35,
         price2: '45 جنيه',
         description: "فلفل - خضرة - هوت دوج",
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -377,7 +373,7 @@ export const food_list = [
         price: 35,
         price2: '45 جنيه',
         description: "ثومية - خص - خيار مخلل",
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -388,7 +384,7 @@ export const food_list = [
         price: 40,
         price2: '50 جنيه',
         description: "ثومية - خص - خيار مخلل",
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -398,7 +394,7 @@ export const food_list = [
         image: sandwish21,
         price: 15,
         price2: '20 جنيه',
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -408,7 +404,7 @@ export const food_list = [
         image: sandwish,
         price: 20,
         price2: '25 جنيه',
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -418,7 +414,7 @@ export const food_list = [
         image: sandwish20,
         price: 40,
         price2: '50 جنيه',
-        category: "قسم السندوتشات",
+        category: "السندوتشات",
         type: 'M',
         type2: 'L'
     },
@@ -460,7 +456,7 @@ export const food_list = [
         image: food_36,
         price: 35,
         price2: '40 جنيه',
-        category: "قسم المكرونات",
+        category: "المكرونات",
         type: 'M',
         type2: 'L'
     },
@@ -470,7 +466,7 @@ export const food_list = [
         image: food_35,
         price: 40,
         price2: '60 جنيه',
-        category: "قسم المكرونات",
+        category: "المكرونات",
         type: 'M',
         type2: 'L'
     },
@@ -480,7 +476,7 @@ export const food_list = [
         image: food_34,
         price: 35,
         price2: '50 جنيه',
-        category: "قسم المكرونات",
+        category: "المكرونات",
         type: 'M',
         type2: 'L'
     },
@@ -490,7 +486,7 @@ export const food_list = [
         image: food_32,
         price: 25,
         price2: '-',
-        category: "قسم المكرونات",
+        category: "المكرونات",
         type: 'M',
         type2: 'L'
     },
@@ -500,7 +496,7 @@ export const food_list = [
         image: food_31,
         price: 25,
         price2: '-',
-        category: "قسم المكرونات",
+        category: "المكرونات",
         type: 'M',
         type2: 'L'
     },
@@ -510,7 +506,7 @@ export const food_list = [
         image: food_33,
         price: 35,
         price2: '50 جنيه',
-        category: "قسم المكرونات",
+        category: "المكرونات",
         type: 'M',
         type2: 'L'
     }
