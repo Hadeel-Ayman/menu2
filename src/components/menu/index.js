@@ -9,7 +9,8 @@ const Menu = ({ setCategory }) => {
             <div className='menu_list'>
                 {menu_list.map((menu, index) => {
                     return (
-                        <div className='menu_list_item' key={index} onClick={() => setCategory((prev) => prev === menu.menu_name ? "All" : menu.menu_name)}>
+                        
+                        <div className='menu_list_item' key={index} onClick={() => setCategory(menu.menu_name)}>
                             <img src={menu.menu_image} alt={menu.name} loading='lazy' />
                             <h3>{menu.menu_name}</h3>
                         </div>

@@ -80,26 +80,6 @@ export const menu_list = [
 
 export const food_list = [
     {
-        _id: "1",
-        name: "بوم فريت سادة",
-        image: aptizer4,
-        price: 10,
-        price2: '20 جنيه',
-        category: "المقبلات",
-        type: 'M',
-        type2: 'L'
-    },
-    {
-        _id: "2",
-        name: "بوم فريت بالجبنة",
-        image: aptizer3,
-        price: 15,
-        price2: '25 جنيه',
-        category: "المقبلات",
-        type: 'M',
-        type2: 'L'
-    },
-    {
         _id: "3",
         name: "سمبوسة بالجبنة",
         image: aptizer10,
@@ -509,5 +489,25 @@ export const food_list = [
         category: "المكرونات",
         type: 'M',
         type2: 'L'
-    }
+    },
+    {
+        _id: "1",
+        name: "بوم فريت سادة",
+        image: aptizer4,
+        price: 10,
+        price2: '20 جنيه',
+        category: "المقبلات",
+        type: 'M',
+        type2: 'L'
+    },
+    {
+        _id: "2",
+        name: "بوم فريت بالجبنة",
+        image: aptizer3,
+        price: 15,
+        price2: '25 جنيه',
+        category: "المقبلات",
+        type: 'M',
+        type2: 'L'
+    },
 ]
